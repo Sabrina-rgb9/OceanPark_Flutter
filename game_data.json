@@ -59,6 +59,15 @@
   ],
   "mediaAssets": [
     {
+      "name": "mew_sinfondo",
+      "fileName": "media/mew_sinfondo.png",
+      "mediaType": "spritesheet",
+      "tileWidth": 205,
+      "tileHeight": 160,
+      "selectionColorHex": "#FFCC00",
+      "groupId": "__main__"
+    },
+    {
       "name": "tileset_cueva_2",
       "fileName": "media/tileset_cueva_2.png",
       "mediaType": "tileset",
