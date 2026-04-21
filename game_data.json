@@ -162,8 +162,12 @@
       "color": "green"
     },
     {
-      "name": "Category 2",
+      "name": "Player Death",
       "color": "red"
+    },
+    {
+      "name": "Floor",
+      "color": "yellow"
     }
   ],
   "animationsFile": "animations/animations.json"
