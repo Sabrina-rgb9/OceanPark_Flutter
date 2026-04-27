@@ -8,8 +8,8 @@ class PlayerData {
 
   factory PlayerData.fromJson(Map<String, dynamic> json) {
     return PlayerData(
-      id: json['id'].toString(),
-      name: json['name'] ?? 'Sin nombre',
+      id: json['id'],
+      name: json['name'] ?? 'Jugador',
       x: (json['x'] as num).toDouble(),
       y: (json['y'] as num).toDouble(),
     );

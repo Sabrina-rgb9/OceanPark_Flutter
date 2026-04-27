@@ -3,6 +3,8 @@ import 'package:web_socket_channel/web_socket_channel.dart';
 import 'dart:convert';
 
 class GameViewer extends StatefulWidget {
+  const GameViewer({super.key});
+
   @override
   _GameViewerState createState() => _GameViewerState();
 }
@@ -10,7 +12,7 @@ class GameViewer extends StatefulWidget {
 class _GameViewerState extends State<GameViewer> {
   // Conexión al servidor del instituto
   final channel = WebSocketChannel.connect(
-    Uri.parse('ws://ieticloudpro.ieti.cat:3000'),
+    Uri.parse('ws://pico3.ieti.cat'),
   );
 
   List players = [];
